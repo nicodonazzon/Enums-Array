@@ -17,8 +17,24 @@ enum Color {
 }
 ```
 
-En este ejemplo, se define un enum llamado `Color` que tiene tres valores: `Red`, `Green` y `Blue`. Por defecto, los valores numéricos asignados a cada elemento son incrementales comenzando desde cero (`Red` es 0, `Green` es 1, `Blue` es 2`). Sin embargo, puedes asignar explícitamente valores personalizados si lo deseas.
+En este ejemplo, se define un enum llamado `Color` que tiene tres valores: `Red`, `Green` y `Blue`. Por defecto, los valores numéricos asignados a cada elemento son incrementales comenzando desde cero (`Red` es 0, `Green` es 1, `Blue` es 2). Sin embargo, puedes asignar explícitamente valores personalizados si lo deseas.
 
+Ejemplos con valores personalizados:
+```typescript
+
+enum Color {
+  Red = 10,
+  Green = 20,
+  Blue = 30,
+}
+
+enum Direction {
+  North = "N",
+  South = "S",
+  East = "E",
+  West = "W",
+}
+```
 Uso de un enum en TypeScript:
 
 ```typescript
